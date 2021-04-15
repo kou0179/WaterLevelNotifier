@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/kou0179/WaterLevelNotifier/issues"
   },
-  "homepage": "https://github.com/kou0179/WaterLevelNotifier#readme"
+  "homepage": "https://github.com/kou0179/WaterLevelNotifier#readme",
+  "dependencies": {
+    "ky": "^0.27.0",
+    "obniz": "^3.14.0"
+  }
 }
