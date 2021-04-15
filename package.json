@@ -1,23 +1,21 @@
 {
-  "name": "waterlevelnotifier",
+  "name": "WaterLevelNotifier",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kou0179/WaterLevelNotifier.git"
-  },
-  "author": "Sakepon (KotaSakahara)",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/kou0179/WaterLevelNotifier/issues"
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "serve": "node --unhandled-rejections none ./dist/index.js"
   },
-  "homepage": "https://github.com/kou0179/WaterLevelNotifier#readme",
+  "devDependencies": {
+    "@types/node": "14",
+    "typescript": "^4.2.4"
+  },
   "dependencies": {
+    "form-data": "^4.0.0",
     "ky": "^0.27.0",
+    "ky-universal": "^0.9.1",
     "obniz": "^3.14.0"
   }
 }
